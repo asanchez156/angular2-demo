@@ -26,7 +26,7 @@ System.register(["angular2/core"], function(exports_1, context_1) {
                         selector: 'my-hello'
                     }),
                     core_1.View({
-                        template: '<h3>Hello World !!</h3>'
+                        templateUrl: 'app/views/hello-world.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], MyHelloWorldClass);
